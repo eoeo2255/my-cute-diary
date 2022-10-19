@@ -3,54 +3,36 @@
 <head>
   <title>My First Web Diary</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
   <style>
-  a {
-    color: red;
-    text-decoration: none;
-  }
-  h1 {
-    font-size:60px;
-    text-align:center;
-    border-bottom:2px solid red;
-    margin:0;
-    padding:20px;
-    padding-left:120px;
-}
-#grid  ul{
-      border-right:2px solid red;
-      width:80px;
-      margin:0;
-      padding-top:0px;
-      padding-left: 0px;
-      text-align: center;
-  }
-  .midline {
-    text-align:center;
-  }
-body {
-  margin:0;
-}
-#grid{
-  display:grid;
-  grid-template-columns: 150px 1fr;
-}
-div{
-  padding-right:40px;
-}
+  .bu a{
+    width: 100px;
+    height: 40px;
+    background-color:#44398A;
+    border-radius: 8px;
+    margin-bottom: 20px;
 
-.side div{
-  border-bottom: 2px solid red;
-  padding: 0px;
-  text-align:center;
-  padding-bottom: 2px;
-}
-  @media(max-width:800px){
-    #grid{
-      display:block;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px 0 silver;
     }
-  }
-  .side{
-    color:red;
+    .bu a:hover {
+    background-color:pink;
+    }
+  .midline div{
+    padding: 0px
+    width: 150px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   </style>
 </head>
@@ -64,21 +46,27 @@ div{
     <li><a href="22.10.17.html">D+1</font></a></li>
     <li><a href="22.10.18.html">D+2</font></a></li>
     <li><a href="22.10.19.html">D+3</font></a></li>
+    <li><a href="22.10.20.html">D+4</font></a></li>
+
   </ul>
 
   <div>
     <h2><center>22.10.19 (D+3)</center></h2>
-    <center class="midline">공부시작 첫날부터 늦잠 잤다. 어제 <strong><u>늦게</u> 잠들어서</strong> 그런거라고 나 자신을 위로해본다.
-  처음 듣는 코딩 수업은 재미있다.<br>배고프다 밥 뭐먹지 <a href="https://cookatmarket.com/ko/product/detail?product_id=863" target="_blank" title="구매주소">김치돼지 짜글이</a>면 충분할까?
-  딱히 먹고싶지 않은데 귀찮으니까 그냥 먹어야겠다.<br><img style="margin-top:20px; margin-bottom:20px" class="midline" src="김치.jpg" width="500px;"><br>영화속에서만 보던 코딩 에디터를 직접 깔고 html을 이용해 web을 만들었다. 그 특유의 <strong>있어보이던 화면</strong>이 너무 신기하다.<br>아직은 많이 허접하지만 하나씩 배우면서 새로운 걸 알게 될 때마다 응용해서 수정해나가봐야 겠다. 앞으로 이 web이 얼마나 바뀌게 될 지 궁금하고 설렌다.<br>오늘 배운 내용만 정리하는 것도 힘들 것 같다. 기초를 통해서 응용을 하는게 중요하니까 이것저것 많이 만들면서 익숙해져야겠다.<br>진도를 빨리 빼는게 중요한게 아니라 온전히 내 것으로 만드는게 중요하다고 생각한다. 화이팅!
-    <br>
-    <br>
-    Editor-Atom<br>
-    <a href="https://github.com/">Hosting-GitHub</a><br>
-    Web Server-Bitnami<br>
-    <a href="https://disqus.com/">comment-Disqus</a><br>
-    chat-<br>
-    </center>
+    <left class="midline">
+      와.. CSS까지 듣고 자바스크립트 보기 전에 PHP먼저 들어도 될 것 같아서 들어봤는데.. 초반부터 이해가 잘 안가고 막혀버렸다 ㅋㅋㅋ ㅠㅠ ..<br>
+      어휴 근데 일기도 하루하루 추가되면.. web마다 날짜 추가해야될텐데...ㅠㅠ...PHP배우기 전까지는 노가다해야되려나보다 ㅎㅎ...<br>
+      내일 html 처음부터 CSS배운 부분까지 한번 더 직접 해보고, 책 도착하면 책 보면서도 한번 더 해봐야겠다.<br>
+      오후에는 도착한 책 읽으면서 홈서버랑 도메인네임 시스템 괜찮으면 그부분 다시 보고...<br>
+      저녁부터는 책이랑 같이 자바스크립트 이어서 봐야겠다.<br>
+      오늘도 자기전까지 일단 자바스크립트 하는걸로~<br>
+      ㅠㅠ하루하루 난이도가 빡세게 올라가는게 느껴지는 것 같다.. 그래도 포기하지 말고 ㅠㅠ끝까지 붙잡고 늘어지도록...<br>
+      하루종일 앉아서 노트북 두들기고 영상 시청하니까 시간이 안가는 것 같으면서도 빨리간다. 하루 할당량을 정해놓고 공부하는게 좋겠다.<br>
+      <br>
+      아 지인 추천으로 링크트리처럼.. 프로필 주소 모아두는것 같은데! 난 떠오르는게 없어서ㅠㅠ 남자친구 판매페이지 주소 모음으로 제작했다.ㅎㅎ 뿌듯<br>
+      <div class="bu">
+    <a target="_blank" href="https://eoeo2255.github.io/PMICstores/">오늘의 작품</a>
+      </div>
+  </left>
   </div>
 </div>
 
